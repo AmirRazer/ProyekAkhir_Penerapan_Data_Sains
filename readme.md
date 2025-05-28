@@ -131,6 +131,7 @@ streamlit run app.py
 
 # http://localhost:8501 akan keluar link ini klik saja 
 ```
+![App](https://github.com/user-attachments/assets/dcb2ec17-af50-43c2-bb0e-b7503c8f8077)
 
 
 
