@@ -44,7 +44,110 @@ Setup environment:
 ##  Business Dashboard
 ![alt text](amirrr_dashboard.png)
 
-## Informasi Utama
+### Informasi Utama
+#### Ringkasan Mahasiswa
+
+Menyajikan data kunci mengenai populasi mahasiswa, termasuk:
+- **Total Siswa**
+- **Rata-rata GDP (Avg GDP)**
+- **Rata-rata Usia (Avg Age)**
+
+Dilengkapi dengan filter:
+- All
+- Dropout
+- Enrolled
+- Graduate
+
+Untuk menyesuaikan data yang ditampilkan berdasarkan status mahasiswa.
+
+---
+
+
+Menampilkan visualisasi **pie chart** yang menggambarkan proporsi antara mahasiswa:
+- Laki-laki (Male)
+- Perempuan (Female)
+
+---
+
+#### Kewarganegaraan (Nationality)
+
+Menyajikan **bar chart horizontal** yang menunjukkan distribusi mahasiswa berdasarkan kewarganegaraan mereka,  
+menyoroti kewarganegaraan yang paling dominan.
+
+---
+
+#### Status Perkawinan (Marital Status)
+
+Menampilkan **bar chart horizontal** yang menggambarkan status perkawinan mahasiswa (single, married, divorced, dll.),  
+menunjukkan status mayoritas.
+
+---
+
+#### Waktu Perkuliahan (Daytime)
+
+Sebuah **bar chart horizontal** yang membandingkan jumlah mahasiswa yang memilih program:
+- Siang (daytime)
+- Malam (evening)
+
+---
+
+#### Jumlah Beasiswa
+
+Menunjukkan perbandingan dalam bentuk **bar chart horizontal** antara jumlah mahasiswa yang menerima beasiswa (Yes)  
+dan yang tidak menerima (No).
+
+---
+
+#### 5 Jurusan Teratas (Top 5 Course)
+
+Menampilkan **bar chart horizontal** yang mengurutkan lima jurusan dengan jumlah pendaftar atau mahasiswa terbanyak di institut tersebut.
+
+
+---
+
+## 🎯 Tujuan Visualisasi
+- Menyediakan ringkasan data mahasiswa yang berstatus dropout untuk keperluan evaluasi.
+- Mempermudah analisis pola dropout berdasarkan gender, usia, kewarganegaraan, status sosial, waktu kuliah, penerimaan beasiswa, dan jurusan.
+- Menjadi dasar penyusunan strategi untuk mencegah dropout di masa depan.
+
+### Tools yang Digunakan:
+- **Tableau** sebagai platform untuk membangun dashboard interaktif dan responsif.
+
+> **Link Akses Dashboard**: [Lihat di Tableau Public](https://public.tableau.com/app/profile/amir.mahmud4793/viz/ProyekAkhirPenerapanDataSains/Dashboard1)
+
+> **Catatan**: Dashboard bersifat dinamis dan akan berubah secara otomatis sesuai dengan filter atau interaksi pengguna.
+
+> **Video**: [Lihat Video](https://youtu.be/JH7vlu0xquo)
+
+
+## Menjalankan Sistem Machine Learning
+
+### 🔗 Repository
+Proyek ini tersedia di GitHub:  
+👉 [PenerapanDataSainsProyekPAkhir](https://github.com/AmirRazer/ProyekAkhir_Penerapan_Data_Sains)
+
+---
+
+### 1. Clone Repository
+
+Clone repositori ke komputer lokal Anda menggunakan perintah berikut:
+
+```bash
+git clone https://github.com/AmirRazer/ProyekAkhir_Penerapan_Data_Sains
+cd ProyekAkhir_Penerapan_Data_Sains
+python -m venv env
+venv\Scripts\activate
+pip install -r requirements.txt
+streamlit run app.py 
+
+# http://localhost:8501 akan keluar link ini klik saja 
+```
+
+
+
+## Conclusion
+
+
 - **Total Mahasiswa Dropout:**  
   🎓 **1,421 mahasiswa**
 
@@ -93,34 +196,30 @@ Setup environment:
   4. Veterinary Nursing: 90  
   5. Social Service: 65
 
----
-
-## 🎯 Tujuan Visualisasi
-- Menyediakan ringkasan data mahasiswa yang berstatus dropout untuk keperluan evaluasi.
-- Mempermudah analisis pola dropout berdasarkan gender, usia, kewarganegaraan, status sosial, waktu kuliah, penerimaan beasiswa, dan jurusan.
-- Menjadi dasar penyusunan strategi untuk mencegah dropout di masa depan.
-
-### Tools yang Digunakan:
-- **Tableau** sebagai platform untuk membangun dashboard interaktif dan responsif.
-
-> **Link Akses Dashboard**: [Lihat di Tableau Public](https://public.tableau.com/app/profile/amir.mahmud4793/viz/ProyekAkhirPenerapanDataSains/Dashboard1)
-
-> **Catatan**: Dashboard bersifat dinamis dan akan berubah secara otomatis sesuai dengan filter atau interaksi pengguna.
-
-> **Video**: [Lihat Video](https://youtu.be/JH7vlu0xquo)
+- Total mahasiswa dropout sebanyak 1,421 dengan proporsi gender relatif seimbang antara laki-laki dan perempuan.
+- Rata-rata usia mahasiswa dropout adalah 26,07 tahun, mengindikasikan kelompok usia produktif yang berpotensi menghadapi tantangan studi.
+- Mayoritas mahasiswa dropout adalah warga negara Portuguese (1,389 dari 1,421).
+- Sebagian besar mahasiswa dropout berstatus lajang (single), yang mungkin berhubungan dengan faktor sosial dan dukungan.
+- Program daytime memiliki jumlah dropout jauh lebih tinggi dibanding evening, menjadi perhatian untuk evaluasi program siang.
+- Sebagian besar mahasiswa dropout tidak menerima beasiswa, menandakan potensi peran beasiswa dalam menekan angka putus studi.
+- Jurusan Management dan Nursing menjadi dua jurusan dengan angka dropout tertinggi, perlu perhatian khusus dalam program pembinaan.
 
 
-## Menjalankan Sistem Machine Learning
-Jelaskan cara menjalankan protoype sistem machine learning yang telah dibuat. Selain itu, sertakan juga link untuk mengakses prototype tersebut.
-
-```
-
-```
-
-## Conclusion
-Jelaskan konklusi dari proyek yang dikerjakan.
 
 ### Rekomendasi Action Items
-Berikan beberapa rekomendasi action items yang harus dilakukan perusahaan guna menyelesaikan permasalahan atau mencapai target mereka.
-- action item 1
-- action item 2
+Berikut beberapa langkah yang dapat dilakukan untuk mengatasi masalah dropout dan meningkatkan retensi mahasiswa:
+
+- **Meningkatkan Program Pendampingan dan Konseling Akademik**  
+  Berikan layanan bimbingan akademik dan psikologis yang intensif, khususnya untuk mahasiswa di jurusan dengan angka dropout tinggi seperti Management dan Nursing.
+
+- **Evaluasi dan Optimalisasi Program Perkuliahan Daytime**  
+  Lakukan survei dan evaluasi terhadap program kuliah siang yang memiliki angka dropout lebih tinggi, dan sesuaikan metode pengajaran atau jadwal agar lebih fleksibel dan mendukung mahasiswa.
+
+- **Perluasan dan Penyesuaian Kebijakan Beasiswa**  
+  Tingkatkan akses dan cakupan beasiswa bagi mahasiswa yang berisiko dropout, terutama yang saat ini belum menerima bantuan keuangan.
+
+- **Implementasi Model Machine Learning untuk Prediksi Risiko Dropout**  
+  Manfaatkan model ML yang sudah dideploy untuk mendeteksi mahasiswa berisiko dropout sejak dini, sehingga dapat dilakukan intervensi yang tepat waktu dan personal.
+
+- **Penguatan Komunikasi dan Keterlibatan Mahasiswa**  
+  Kembangkan program dan komunitas yang meningkatkan keterlibatan mahasiswa dalam kegiatan kampus untuk meningkatkan rasa memiliki dan motivasi dalam menyelesaikan studi.
