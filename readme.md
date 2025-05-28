@@ -106,7 +106,7 @@ Menampilkan **bar chart horizontal** yang mengurutkan lima jurusan dengan jumlah
 
 > **Catatan**: Dashboard bersifat dinamis dan akan berubah secara otomatis sesuai dengan filter atau interaksi pengguna.
 
-> **Video**: [Lihat Video](https://youtu.be/JH7vlu0xquo)
+> **Video**: [Lihat Video](https://youtu.be/UD60623VNyg)
 
 
 ## Menjalankan Sistem Machine Learning
