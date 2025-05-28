@@ -1,17 +1,6 @@
 # Proyek Akhir: Menyelesaikan Permasalahan Perusahaan Edutech
 
 ## Business Understanding
-Jelaskan latar belakang bisnis dari perushaan tersebut.
-
-### Permasalahan Bisnis
-Tuliskan seluruh permasalahan bisnis yang akan diselesaikan.
-
-### Cakupan Proyek
-Tuliskan cakupan proyek yang akan dikerjakan.
-
-# Proyek Akhir: Menyelesaikan Permasalahan Perusahaan Edutech
-
-## Business Understanding
 
 Jaya Jaya Institut merupakan salah satu institusi pendidikan tinggi yang telah berdiri sejak tahun 2000. Institut ini telah menghasilkan banyak lulusan berkualitas dan memiliki reputasi yang baik. Namun, mereka juga menghadapi masalah serius yaitu tingginya tingkat dropout atau siswa yang tidak menyelesaikan pendidikannya. 
 
