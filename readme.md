@@ -119,25 +119,25 @@ Proyek ini tersedia di GitHub:
 
 ### Instalasi
 
-- Clone repository
+- Clone repository <br>
   Mengunduh salinan project dari GitHub ke mesin lokal kamu.
 ```bash
 # Meng-clone repository dari GitHub
 git clone https://github.com/AmirRazer/ProyekAkhir_Penerapan_Data_Sains
 ```
-- Masuk ke direktori project
+- Masuk ke direktori project <br>
   Pindah ke folder hasil clone untuk menjalankan perintah selanjutnya.
 ```bash
 # Berpindah ke direktori project
 cd ProyekAkhir_Penerapan_Data_Sains
 ```
-- Buat virtual environment
+- Buat virtual environment <br>
   Isolasi dependensi Python agar tidak bertabrakan dengan sistem global.
 ```bash
 # Membuat virtual environment bernama 'env'
 python -m venv env
 ```
-- Aktifkan virtual environment
+- Aktifkan virtual environment <br>
 Mengaktifkan environment agar pip dan python yang dipakai adalah yang ada di env.
 
 Windows (PowerShell/CMD):
@@ -150,17 +150,17 @@ macOS/Linux:
 # Aktifkan venv di macOS/Linux
 source env/bin/activate
 ```
-- Install seluruh dependensi
+- Install seluruh dependensi <br>
 Memasang paket‐paket Python yang dibutuhkan sesuai daftar di requirements.txt.
 ```bash
 # Install semua library yang terdaftar
 pip install -r requirements.txt
 ```
-- Jalankan aplikasi Streamlit
+- Jalankan aplikasi Streamlit <br>
 Menjalankan antarmuka web interaktif menggunakan Streamlit.
 ```bash
-Jalankan aplikasi Streamlit
-Menjalankan antarmuka web interaktif menggunakan Streamlit.
+# Start aplikasi Streamlit
+streamlit run app.py
 ```
 
 ![App](https://github.com/user-attachments/assets/dcb2ec17-af50-43c2-bb0e-b7503c8f8077)
