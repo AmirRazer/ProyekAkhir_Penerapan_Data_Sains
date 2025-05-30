@@ -165,6 +165,7 @@ Menjalankan antarmuka web interaktif menggunakan Streamlit.
 
 ![App](https://github.com/user-attachments/assets/dcb2ec17-af50-43c2-bb0e-b7503c8f8077)
 
+👉 Jalankan secara online di sini [AplikasiStreamlitCloud](https://amirrazer-proyekakhir-penerapan-data-sains-app-py8gj7.streamlit.app/)
 
 
 ## Conclusion
