@@ -106,7 +106,7 @@ Menampilkan **bar chart horizontal** yang mengurutkan lima jurusan dengan jumlah
 
 > **Catatan**: Dashboard bersifat dinamis dan akan berubah secara otomatis sesuai dengan filter atau interaksi pengguna.
 
-> **Video**: [Lihat Video](https://youtu.be/JH7vlu0xquo)
+> **Video**: [Lihat Video](https://youtu.be/UD60623VNyg)
 
 
 ## Menjalankan Sistem Machine Learning
@@ -131,6 +131,7 @@ streamlit run app.py
 
 # http://localhost:8501 akan keluar link ini klik saja 
 ```
+![App](https://github.com/user-attachments/assets/dcb2ec17-af50-43c2-bb0e-b7503c8f8077)
 
 
 
