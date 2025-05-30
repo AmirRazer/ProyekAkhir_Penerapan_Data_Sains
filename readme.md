@@ -117,20 +117,52 @@ Proyek ini tersedia di GitHub:
 
 ---
 
-### 1. Clone Repository
+### Instalasi
 
-Clone repositori ke komputer lokal Anda menggunakan perintah berikut:
-
+- Clone repository
+  Mengunduh salinan project dari GitHub ke mesin lokal kamu.
 ```bash
+# Meng-clone repository dari GitHub
 git clone https://github.com/AmirRazer/ProyekAkhir_Penerapan_Data_Sains
-cd ProyekAkhir_Penerapan_Data_Sains
-python -m venv env
-venv\Scripts\activate
-pip install -r requirements.txt
-streamlit run app.py 
-
-# http://localhost:8501 akan keluar link ini klik saja 
 ```
+- Masuk ke direktori project
+  Pindah ke folder hasil clone untuk menjalankan perintah selanjutnya.
+```bash
+# Berpindah ke direktori project
+cd ProyekAkhir_Penerapan_Data_Sains
+```
+- Buat virtual environment
+  Isolasi dependensi Python agar tidak bertabrakan dengan sistem global.
+```bash
+# Membuat virtual environment bernama 'env'
+python -m venv env
+```
+- Aktifkan virtual environment
+Mengaktifkan environment agar pip dan python yang dipakai adalah yang ada di env.
+
+Windows (PowerShell/CMD):
+```bash
+# Aktifkan venv di Windows
+.\env\Scripts\activate
+```
+macOS/Linux:
+```bash
+# Aktifkan venv di macOS/Linux
+source env/bin/activate
+```
+- Install seluruh dependensi
+Memasang paket‐paket Python yang dibutuhkan sesuai daftar di requirements.txt.
+```bash
+# Install semua library yang terdaftar
+pip install -r requirements.txt
+```
+- Jalankan aplikasi Streamlit
+Menjalankan antarmuka web interaktif menggunakan Streamlit.
+```bash
+Jalankan aplikasi Streamlit
+Menjalankan antarmuka web interaktif menggunakan Streamlit.
+```
+
 ![App](https://github.com/user-attachments/assets/dcb2ec17-af50-43c2-bb0e-b7503c8f8077)
 
 
